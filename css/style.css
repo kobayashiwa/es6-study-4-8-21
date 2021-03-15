@@ -80,6 +80,10 @@ nav {
 	.top-header {
 		height: 92px;
 	}
+	.head-logo {
+		width: 32px;
+		height: 36px;
+	}
 }
 
 /** main **/
