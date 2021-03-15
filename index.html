@@ -13,21 +13,15 @@
     <body>
 
         <header class="top-header">
+            <div class="head-logo"><img src="./img/logo.svg" alt="茶ッカソン"></div>
             <nav></nav>
         </header>
 
         <main>
-            <section class="first">
-                section / first
-                <div class="logo"><img src="./img/logo.svg" alt="衣のいのち"></div>
-            </section>
-            <section class="about">about</section>
-            <section class="item" id="botankarakusa">botankarakusa</section>
-            <section class="item" id="kamon">kamon</section>
-            <section class="item" id="namikasane">namikasane</section>
-            <section class="item" id="kochoranbu">kochoranbu</section>
-            <section class="others">others</section>
-            <section class="profile">profile</section>
+            <section class="HomeHero">section / HomeHero</section>
+            <section class="HomeAbout">section / HomeAbout</section>
+            <section class="HomeReport">section / HomeReport</section>
+            <section class="HomeNorenwake">section / HomeNorenwake</section>
         </main>
 
         <footer>footer</footer>
@@ -38,57 +32,19 @@
     <script>
         // スクロール時に実行する
         $(window).scroll(function(){
-            // firstの高さを取得する
-            let mainVisualHeight = $(".first").height();
+            // top-headerの高さを取得する
+            let mainVisualHeight = $(".top-header").height();
             // スクロール量の取得
             let scroll = $(this).scrollTop();
-            // スクロール量がメインビジュアルの高さより大きければclassを付与する
+            // スクロール量がtop-headerの高さより大きければclassを付与する
             if ( scroll > mainVisualHeight){
                 $(".top-header").addClass("bisible");
             }
-            // スクロール量がメインビジュアルの高さより小さければ特定のclassを消す
+            // スクロール量がtop-headerの高さより小さければ特定のclassを消す
             else {
                 $(".top-header").removeClass("bisible");
             }
         });
-    </script>
-
-    <script>
-        class Animal {
-            constructor(name, age) {
-                this.name = name;
-                this.age = age;
-            }
-            greet() {
-                console.log("こんにちは");
-            }
-        }
-        const animal = new Animal("レオ", 3);
-        console.log(`名前：${animal.name}`);
-        console.log(`年齢：${animal.age}`);
-        animal.greet();
-
-        class Aqua {
-            constructor(merit, introduction, exhibition, summary, access, qa, contact) {
-                this.merit = merit;
-                this.introduction = introduction;
-                this.exhibition = exhibition;
-                this.summary = summary;
-                this.access = access;
-                this.qa = qa;
-                this.contact = contact;
-            }
-            greet() {
-                console.log("参加お申し込みはこちら");
-            }
-        }
-        const aqua = new Aqua("来場メリット", "アクアとは？", "展示情報", "実施概要", "アクセス", "よくある質問", "来場登録");
-        console.log(`${aqua.merit}`);
-        console.log(`${aqua.introduction}`);
-        console.log(`${aqua.exhibition}`);
-        console.log(`${aqua.summary}`);
-        console.log(`${aqua.access}`);
-        console.log(`${aqua.qa}`);
     </script>
 
 </html>
