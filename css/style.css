@@ -71,9 +71,9 @@ nav {
 	/** background-image: url(../img/icon-navi.svg);  **/
 	background-size: cover;
 	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translate(-50%, 0);
+	top: 50%;
+	right: 55px;
+	transform: translate(0, -50%);
 	background: #D4B079;
 }
 @media screen and (max-width: 679px) {
