@@ -58,8 +58,11 @@ ul, li {
 	display: block;
 }
 .head-logo {
+	position: absolute;
 	width: 46px;
 	height: 52px;
+	top: 40px;
+	left: 45px;
 	background: #D4B079;
 }
 nav {
