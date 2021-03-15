@@ -67,9 +67,9 @@ nav {
 	left: 50%;
 	transform: translate(-50%, 0);
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 679px) {
 	.top-header {
-		height: 55px;
+		height: 92px;
 	}
 }
 
