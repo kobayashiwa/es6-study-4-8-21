@@ -66,8 +66,8 @@ ul, li {
 	background: #D4B079;
 }
 nav {
-	width: 40px;
-	height: 40px;
+	width: 60px;
+	height: 60px;
 	background-image: url(../img/icon-navi.svg);
 	background-size: cover;
 	position: absolute;
