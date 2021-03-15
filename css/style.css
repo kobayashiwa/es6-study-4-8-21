@@ -57,6 +57,11 @@ ul, li {
 .top-header.bisible {
 	display: block;
 }
+.head-logo {
+	width: 46px;
+	height: 52px;
+	background: #D4B079;
+}
 nav {
 	width: 40px;
 	height: 40px;
