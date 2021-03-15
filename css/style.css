@@ -63,7 +63,9 @@ ul, li {
 	height: 52px;
 	top: 40px;
 	left: 45px;
-	background: #D4B079;
+}
+.head-logo img {
+	width: 100%;
 }
 nav {
 	width: 60px;
