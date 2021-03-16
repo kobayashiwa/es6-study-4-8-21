@@ -56,11 +56,13 @@
             greet(){
                 console.log("こんにちは");
             }
+            info() {
+                console.log(`名前は${animal.name}です`);
+                console.log(`年齢は${animal.age}歳です`);
+            }
         }
         const animal = new Animal("レオ", 3);
         animal.greet();
-        console.log(`名前は${animal.name}です`)
-        console.log(`年齢は${animal.age}歳です`)
     </script>
 
 </html>
