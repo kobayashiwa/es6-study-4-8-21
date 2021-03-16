@@ -76,6 +76,18 @@
         }
         const sendenkaigi = new Sendenkaigi("宣伝会議・販促会議・広報会議・ブレーン", 4);
         sendenkaigi.info();
+
+        class Hansokukaigi {
+            constructor(site,description){
+                this.site = site;
+                this.description = description;
+            }
+            info() {
+                console.log(`${hansokukaigi.site}は${hansokukaigi.description}です`);
+            }
+        }
+        const hansokukaigi = new Hansokukaigi("販促会議", "販売促進の専門メディア");
+        hansokukaigi.info();
     </script>
 
 </html>
