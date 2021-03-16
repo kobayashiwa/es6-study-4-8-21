@@ -88,6 +88,23 @@
         }
         const hansokukaigi = new Hansokukaigi("販促会議", "販売促進の専門メディア");
         hansokukaigi.info();
+
+        class Nav {
+            constructor(about,apply,search,login) {
+                this.about = about;
+                this.apply = apply;
+                this.search = search;
+                this.login = login;
+            }
+            info() {
+                console.log(`${nav.about}`);
+                console.log(`${nav.apply}`);
+                console.log(`${nav.search}`);
+                console.log(`${nav.login}`);
+            }
+        }
+        const nav = new Nav("デジタルマガジンとは", "申し込む", "記事内検索", "ログイン");
+        nav.info();
     </script>
 
 </html>
