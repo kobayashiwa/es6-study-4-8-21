@@ -70,7 +70,12 @@
                 this.media = media;
                 this.num = num;
             }
+            info() {
+                console.log(`現在運営するメディアは${sendenkaigi.media}の${sendenkaigi.num}媒体となります。`);
+            }
         }
+        const sendenkaigi = new Sendenkaigi("宣伝会議・販促会議・広報会議・ブレーン", 4);
+        sendenkaigi.info();
     </script>
 
 </html>
