@@ -125,6 +125,21 @@
         }
         const heading = new Heading(2021, 4, "販促会議", "アクティベーションツール", "伝統と革新を感じる、手土産にしたいパッケージ", "小川裕子", "小川裕子デザイン");
         heading.info();
+
+        class Social {
+            constructor(facebook,twitter,bookmark) {
+                this.facebook = facebook;
+                this.twitter = twitter;
+                this.bookmark = bookmark;
+            }
+            info() {
+                console.log(`${social.facebook}`);
+                console.log(`${social.twitter}`);
+                console.log(`${social.bookmark}`);
+            }
+        }
+        const social = new Social("いいね！", "ツイート", "Bookmark");
+        social.info();
     </script>
 
 </html>
